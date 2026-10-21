@@ -24,29 +24,35 @@ The application allows users to ask questions about uploaded documents. Instead 
 
 ## Architecture
 
+## Architecture
+
+```text
 PDF Document
-      │
-      ▼
+     │
+     ▼
 PyPDFLoader
-      │
-      ▼
+     │
+     ▼
 Text Splitter
-      │
-      ▼
+     │
+     ▼
 OpenAI Embeddings
 (text-embedding-3-small)
-      │
-      ▼
+     │
+     ▼
 Pinecone Vector Store
-      │
-      ▼
+     │
+     ▼
 Retriever
-      │
-      ▼
+     │
+     ▼
 GPT-4o-mini
-      │
-      ▼
+     │
+     ▼
 Answer + Sources
+```
+
+---
 ---
 
 ## Tech Stack
@@ -66,6 +72,7 @@ Answer + Sources
 
 ## Project Structure
 
+```text
 rag-document-assistant/
 │
 ├── app.py
@@ -85,6 +92,7 @@ rag-document-assistant/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 ---
 
 ## Installation
