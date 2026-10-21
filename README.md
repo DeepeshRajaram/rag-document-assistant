@@ -174,11 +174,11 @@ http://localhost:8501
 
 ### Answer Generated
 
-![Answer](screenshots/result 1.png)
+![Answer](screenshots/result1.png)
 
 ### Follow up ques & Ans
 
-![Follow up](screenshots/follow up qa.png)
+![Follow up](screenshots/follow-up-qa.png)
 
 ---
 
