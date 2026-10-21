@@ -24,8 +24,6 @@ The application allows users to ask questions about uploaded documents. Instead 
 
 ## Architecture
 
-## Architecture
-
 ```text
 PDF Document
      │
